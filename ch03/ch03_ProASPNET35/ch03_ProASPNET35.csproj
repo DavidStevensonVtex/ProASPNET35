@@ -79,6 +79,7 @@
     <Content Include="Listing_3-13.aspx" />
     <Content Include="Listing_3-14.aspx" />
     <Content Include="Listing_3-15.aspx" />
+    <Content Include="Listing_3-16.aspx" />
     <Content Include="MyButton.JPG" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="Listing_3-15.aspx.designer.cs">
       <DependentUpon>Listing_3-15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Listing_3-16.aspx.cs">
+      <DependentUpon>Listing_3-16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listing_3-16.aspx.designer.cs">
+      <DependentUpon>Listing_3-16.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
