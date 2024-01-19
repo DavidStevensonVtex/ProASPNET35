@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Listing_3-02.aspx" />
+    <Content Include="Listing_3-04.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="Listing_3-02.aspx.designer.cs">
       <DependentUpon>Listing_3-02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Listing_3-04.aspx.cs">
+      <DependentUpon>Listing_3-04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listing_3-04.aspx.designer.cs">
+      <DependentUpon>Listing_3-04.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
