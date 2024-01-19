@@ -80,7 +80,10 @@
     <Content Include="Listing_3-14.aspx" />
     <Content Include="Listing_3-15.aspx" />
     <Content Include="Listing_3-16.aspx" />
+    <Content Include="Listing_3-17.aspx" />
     <Content Include="MyButton.JPG" />
+    <Content Include="MyImage1.JPG" />
+    <Content Include="MyImage2.JPG" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +173,13 @@
     </Compile>
     <Compile Include="Listing_3-16.aspx.designer.cs">
       <DependentUpon>Listing_3-16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Listing_3-17.aspx.cs">
+      <DependentUpon>Listing_3-17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listing_3-17.aspx.designer.cs">
+      <DependentUpon>Listing_3-17.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
