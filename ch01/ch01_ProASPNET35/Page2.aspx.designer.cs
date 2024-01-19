@@ -31,5 +31,19 @@ namespace ch01_ProASPNET35
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// PreviousPage property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new ch01_ProASPNET35.Page1 PreviousPage
+        {
+            get
+            {
+                return ((ch01_ProASPNET35.Page1)(base.PreviousPage));
+            }
+        }
     }
 }

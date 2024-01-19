@@ -13,8 +13,8 @@ namespace ch01_ProASPNET35
             pp_Textbox1 = (TextBox)PreviousPage.FindControl("TextBox1");
             pp_Calendar1 = (Calendar)PreviousPage.FindControl("Calendar1");
 
-            Label1.Text = "Hello " + pp_Textbox1.Text + "<br />" +
-                "Date Selected: " + pp_Calendar1.SelectedDate.ToShortDateString();
+            Label1.Text = "Hello " + PreviousPage.pp_TextBox1.Text + "<br />" +
+                "Date Selected: " + PreviousPage.pp_Calendar1.SelectedDate.ToShortDateString();
         }
     }
 }

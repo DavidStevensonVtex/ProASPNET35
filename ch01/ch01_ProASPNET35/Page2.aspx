@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Page2.aspx.cs" Inherits="ch01_ProASPNET35.Page2" %>
+<%@ PreviousPageType VirtualPath="Page1.aspx"  %>
 
 <!DOCTYPE html>
 
