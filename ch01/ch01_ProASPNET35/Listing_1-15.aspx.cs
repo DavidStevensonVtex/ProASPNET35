@@ -8,7 +8,7 @@ namespace ch01_ProASPNET35
         protected void Page_Load(object sender, EventArgs e)
         {
             Calculator myCalc = new Calculator();
-            Label1.Text = myCalc.Add(12, 12).ToString();
+            Label1.Text = myCalc.Subtract(12, 12).ToString();
         }
     }
 }
