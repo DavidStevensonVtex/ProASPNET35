@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace ch01_ProASPNET35.App_Code
+﻿namespace ch01_ProASPNET35
 {
     public class Calculator
     {
