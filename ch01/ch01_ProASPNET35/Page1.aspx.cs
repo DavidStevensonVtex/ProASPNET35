@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace ch01_ProASPNET35
@@ -18,6 +14,16 @@ namespace ch01_ProASPNET35
         {
             Label1.Text = "Hello " + TextBox1.Text + "<br />" +
                 "Date Selected: " + Calendar1.SelectedDate.ToShortDateString();
+        }
+
+        public TextBox pp_TextBox1
+        {
+            get { return TextBox1; }
+        }
+
+        public Calendar pp_Calendar1
+        {
+            get { return Calendar1; }
         }
     }
 }
