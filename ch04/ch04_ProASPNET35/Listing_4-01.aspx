@@ -15,6 +15,12 @@
             ControlToValidate="TextBox1"
             ErrorMessage="RequiredFieldValidator"
             InitialValue="My Initial Value">
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" 
+                Text="Required!"
+                ControlToValidate="TextBox1"
+                runat="server" ErrorMessage="RequiredFieldValidator">
+
+            </asp:RequiredFieldValidator>
         </asp:RequiredFieldValidator>
         <br />
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click"/>
