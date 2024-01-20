@@ -35,6 +35,7 @@
         </p>
         <p>
             <asp:ValidationSummary ID="ValidationSummary1" runat="server" 
+                ShowMessageBox="true" ShowSummary="false"
                 HeaderText="You received the following errors:"/>
         </p>
         <p>
