@@ -11,9 +11,10 @@ namespace ch04_ProASPNET35
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = string.Empty;
-            RequiredFieldValidator1.EnableClientScript = false;
-            RequiredFieldValidator2.EnableClientScript = false;
+            foreach ( BaseValidator bv in Page.Validators)
+            {
+                bv.EnableClientScript = false;
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
