@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace ch03_ProASPNET35
 {
@@ -16,7 +11,10 @@ namespace ch03_ProASPNET35
 
         protected void WizardStep3_Activate(object sender, EventArgs e)
         {
-
+            // You could save the inputted data to the database instead
+            Label1.Text = "First name: " + fnameTextBox.Text.ToString() + "<br>" +
+                "Last name: " + lnameTextBox.Text.ToString() + "<br>" +
+                "Email: " + emailTextBox.Text.ToString();
         }
     }
 }
