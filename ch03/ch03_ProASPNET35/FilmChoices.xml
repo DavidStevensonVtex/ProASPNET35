@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FilmChoices>
+  <Film
+      Title="Close Encounters of the Third Kind"
+      Year="1977"
+      Director="Steven Spielberg" />
+  <Film
+      Title="Grease"
+      Year="1978"
+      Directory="Randal Kleiser" />
+  <Film
+      Title="Lawrence of Arabia"
+      Year="1962"
+      Director="David Lean" />
+</FilmChoices>
