@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Wizard ID="Wizard1" runat="server">
+        <asp:Wizard ID="Wizard1" runat="server" OnNextButtonClick="Wizard1_NextButtonClick">
             <WizardSteps>
                 <asp:WizardStep ID="WizardStep1" runat="server" Title="Provide Personal Info">
                     First name: <br />

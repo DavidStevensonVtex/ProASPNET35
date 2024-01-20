@@ -16,5 +16,20 @@ namespace ch03_ProASPNET35
                 "Last name: " + lnameTextBox.Text.ToString() + "<br>" +
                 "Email: " + emailTextBox.Text.ToString();
         }
+
+        protected void Wizard1_NextButtonClick(object sender, System.Web.UI.WebControls.WizardNavigationEventArgs e)
+        {
+            if (e.NextStepIndex == 2)
+            {
+                if (RadioButton1.Checked == true)
+                {
+                    Wizard1.ActiveStepIndex = 2;
+                }
+                else
+                {
+                    Wizard1.ActiveStepIndex = 3;
+                }
+            }
+        }
     }
 }
