@@ -23,6 +23,10 @@
                     <asp:RadioButton ID="RadioButton1" runat="server" Text="Yes" GroupName="Member"/>
                     <asp:RadioButton ID="RadioButton2" runat="server" Text="No" GroupName="Member"/>
                 </asp:WizardStep>
+                <asp:WizardStep ID="MemberStep" runat="server" Title="Provide Membership Number">
+                    Membership Number:<br />
+                    <asp:TextBox ID="nNumberTextBox" runat="server"></asp:TextBox>
+                </asp:WizardStep>
                 <asp:WizardStep ID="WizardStep3" runat="server" Title="Provided Information" StepType="Complete"
                     OnActivate="WizardStep3_Activate">
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
