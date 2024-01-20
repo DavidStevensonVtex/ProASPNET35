@@ -16,6 +16,7 @@
                 runat="server" 
                 ControlToValidate="TextBox1"
                 Text="*"
+                EnableClientScript="false"
                 ErrorMessage="You must enter your first name">
             </asp:RequiredFieldValidator>
         </p>
@@ -27,6 +28,7 @@
                 runat="server" 
                 ControlToValidate="TextBox2"
                 Text="*"
+                EnableClientScript="false"
                 ErrorMessage="You must enter your last name">
             </asp:RequiredFieldValidator>
         </p>
