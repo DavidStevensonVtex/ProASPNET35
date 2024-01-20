@@ -11,7 +11,9 @@
         <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="true" ActiveStepIndex="0"
             HeaderText="&nbsp;Step by Step with the Wizard control&nbsp;"
             HeaderStyle-BackColor="DarkGray" HeaderStyle-Font-Bold="true"
-            HeaderStyle-Font-Size="20">
+            HeaderStyle-Font-Size="20"
+            DisplayCancelButton="true"
+            OnFinishButtonClick="Wizard1_FinishButtonClick">
             <WizardSteps>
                 <asp:WizardStep ID="WizardStep1" runat="server" Title="Step 1" AllowReturn="false">
                     This is the first step.

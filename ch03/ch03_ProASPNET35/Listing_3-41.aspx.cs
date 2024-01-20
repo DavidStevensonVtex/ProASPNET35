@@ -13,5 +13,10 @@ namespace ch03_ProASPNET35
         {
 
         }
+
+        protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
+        {
+
+        }
     }
 }
