@@ -8,12 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server">My Initial Value</asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" 
             runat="server" 
             Text="Required!"
             ControlToValidate="TextBox1"
-            ErrorMessage="RequiredFieldValidator">
+            ErrorMessage="RequiredFieldValidator"
+            InitialValue="My Initial Value">
         </asp:RequiredFieldValidator>
         <br />
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click"/>
