@@ -19,6 +19,9 @@
                 <asp:WizardStep ID="WizardStep3" runat="server" Title="Step 3">
                     This is the third step.
                 </asp:WizardStep>
+                <asp:WizardStep ID="WizardStep4" runat="server" Title="Final Step" StepType="Complete">
+                    Thanks for working through the steps.
+                </asp:WizardStep>
             </WizardSteps>
         </asp:Wizard>
     </form>
