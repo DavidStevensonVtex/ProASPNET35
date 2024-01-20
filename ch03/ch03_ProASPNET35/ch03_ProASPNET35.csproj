@@ -82,6 +82,7 @@
     <Content Include="Listing_3-16.aspx" />
     <Content Include="Listing_3-17.aspx" />
     <Content Include="Listing_3-18.aspx" />
+    <Content Include="Listing_3-19.aspx" />
     <Content Include="MyButton.JPG" />
     <Content Include="MyImage1.JPG" />
     <Content Include="MyImage2.JPG" />
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="Listing_3-18.aspx.designer.cs">
       <DependentUpon>Listing_3-18.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Listing_3-19.aspx.cs">
+      <DependentUpon>Listing_3-19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listing_3-19.aspx.designer.cs">
+      <DependentUpon>Listing_3-19.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
