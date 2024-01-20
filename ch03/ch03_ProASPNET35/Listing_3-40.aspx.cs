@@ -21,5 +21,12 @@ namespace ch03_ProASPNET35
         {
             MultiView1.ActiveViewIndex += 1;
         }
+
+        protected override void OnPreRender(EventArgs e)
+        {
+            base.OnPreRender(e);
+            Label1.Text = "Step " + (MultiView1.ActiveViewIndex + 1).ToString() + " of " +
+                MultiView1.Views.Count.ToString();
+        }
     }
 }

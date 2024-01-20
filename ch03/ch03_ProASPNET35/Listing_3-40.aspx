@@ -32,6 +32,7 @@
                 </i><p />
             </asp:View>
         </asp:MultiView>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
