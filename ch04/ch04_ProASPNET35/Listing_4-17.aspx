@@ -15,6 +15,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" 
                 runat="server" 
                 ControlToValidate="TextBox1"
+                Text="*"
                 ErrorMessage="You must enter your first name">
             </asp:RequiredFieldValidator>
         </p>
@@ -25,6 +26,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" 
                 runat="server" 
                 ControlToValidate="TextBox2"
+                Text="*"
                 ErrorMessage="You must enter your last name">
             </asp:RequiredFieldValidator>
         </p>
