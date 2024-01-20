@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Advertisement.xml" />
+    <Content Include="book1.jpg" />
+    <Content Include="book2.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Listing_3-02.aspx" />
     <Content Include="Listing_3-04.aspx" />
@@ -87,7 +89,7 @@
     <Content Include="Listing_3-20.aspx" />
     <Content Include="Listing_3-22.aspx" />
     <Content Include="Listing_3-21.aspx" />
-    <Content Include="Listing_3-23.aspx" />
+    <Content Include="Listing_3-24.aspx" />
     <Content Include="MyButton.JPG" />
     <Content Include="MyImage1.JPG" />
     <Content Include="MyImage2.JPG" />
@@ -223,12 +225,12 @@
     <Compile Include="Listing_3-21.aspx.designer.cs">
       <DependentUpon>Listing_3-21.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Listing_3-23.aspx.cs">
-      <DependentUpon>Listing_3-23.aspx</DependentUpon>
+    <Compile Include="Listing_3-24.aspx.cs">
+      <DependentUpon>Listing_3-24.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Listing_3-23.aspx.designer.cs">
-      <DependentUpon>Listing_3-23.aspx</DependentUpon>
+    <Compile Include="Listing_3-24.aspx.designer.cs">
+      <DependentUpon>Listing_3-24.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
