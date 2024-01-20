@@ -13,5 +13,11 @@ namespace ch03_ProASPNET35
         {
 
         }
+
+        protected void BulletedList1_Click(object sender, BulletedListEventArgs e)
+        {
+            Label1.Text = "The index of the item you selected: " + e.Index +
+                "<br> The value of the item selected: " + BulletedList1.Items[e.Index].Text;
+        }
     }
 }
