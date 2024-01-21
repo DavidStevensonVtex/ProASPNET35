@@ -15,7 +15,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" 
                 runat="server" 
                 ControlToValidate="TextBox1"
-                Text="*"
+                Text="<img src='error.gif' width='24px' height='24px' />"
                 EnableClientScript="false"
                 ErrorMessage="You must enter your first name">
             </asp:RequiredFieldValidator>
