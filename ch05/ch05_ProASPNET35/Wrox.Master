@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <tabel cellpadding="3" border="1">
+        <table cellpadding="3" border="1">
             <tr bgcolor="silver">
                 <td colspan="2">
                     <h1>My Company Home Page</h1>
@@ -31,7 +31,7 @@
                     Copyright 2008 - My Company
                 </td>
             </tr>
-        </tabel>
+        </table>
     </form>
 </body>
 </html>
