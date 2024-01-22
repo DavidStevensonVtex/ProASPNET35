@@ -13,7 +13,7 @@
         <table cellpadding="3" border="1">
             <tr bgcolor="silver">
                 <td colspan="2">
-                    <h1>My Company Home Page</h1>
+                    <h1><%= PageHeadingTitle %></h1>
                     <b>User's GUID: &nbsp;&nbsp;
                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                     </b>
