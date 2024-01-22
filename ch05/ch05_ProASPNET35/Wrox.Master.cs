@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+using Label = System.Web.UI.WebControls.Label;
 
 namespace ch05_ProASPNET35
 {
@@ -24,6 +20,12 @@ namespace ch05_ProASPNET35
         {
             get { return m_PageHeadingTitle; }
             set { m_PageHeadingTitle = value; }
+        }
+
+        public Label MasterPageLabel1
+        {
+            get { return Label1; }
+            set { Label1 = value; }
         }
     }
 }
