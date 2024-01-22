@@ -22,10 +22,12 @@
             <tr>
                 <td>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        Here is some default content.
                     </asp:ContentPlaceHolder>
                 </td>
                 <td>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        Here is some more default content.
                     </asp:ContentPlaceHolder>
                 </td>
             </tr>
