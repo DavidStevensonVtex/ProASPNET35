@@ -11,14 +11,16 @@ namespace ch05_ProASPNET35
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ( ! Page.IsPostBack)
+            {
+                Label1.Text = System.Guid.NewGuid().ToString();
+            }
         }
 
         protected void Page_LoadComplete(object sencer, EventArgs e)
         {
             Master.Page.Title = "This Page was generated on: " + DateTime.Now.ToString();
         }
-
 
         protected void Button1_Click(object sender, EventArgs e)
         {
