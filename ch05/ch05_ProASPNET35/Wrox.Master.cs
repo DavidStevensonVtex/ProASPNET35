@@ -17,5 +17,13 @@ namespace ch05_ProASPNET35
                 Label1.Text = System.Guid.NewGuid().ToString();
             }
         }
+
+        string m_PageHeadingTitle = "My Company";
+
+        public string PageHeadingTitle
+        {
+            get { return m_PageHeadingTitle; }
+            set { m_PageHeadingTitle = value; }
+        }
     }
 }
