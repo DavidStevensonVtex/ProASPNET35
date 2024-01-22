@@ -49,5 +49,19 @@ namespace ch05_ProASPNET35
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image1;
+
+        /// <summary>
+        /// Master property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new ch05_ProASPNET35.Wrox Master
+        {
+            get
+            {
+                return ((ch05_ProASPNET35.Wrox)(base.Master));
+            }
+        }
     }
 }

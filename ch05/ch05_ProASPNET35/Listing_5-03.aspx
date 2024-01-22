@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Wrox.Master" AutoEventWireup="true" CodeBehind="Listing_5-03.aspx.cs" Inherits="ch05_ProASPNET35.Listing_5_03" %>
+<%@ MasterType VirtualPath="~/Wrox.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
