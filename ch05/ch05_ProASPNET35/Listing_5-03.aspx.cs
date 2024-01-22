@@ -11,7 +11,7 @@ namespace ch05_ProASPNET35
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Master.PageHeadingTitle = "My Company - Division X";
+            Master.MasterPageLabel1.Font.Size = 25;
         }
 
         protected void Page_LoadComplete(object sencer, EventArgs e)
