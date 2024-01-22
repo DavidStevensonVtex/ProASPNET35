@@ -15,7 +15,7 @@ namespace ch05_ProASPNET35
 
         protected void Page_LoadComplete(object sencer, EventArgs e)
         {
-            Master.Page.Title = "This Page was generated on: " + DateTime.Now.ToString();
+            Label1.Text = (Master.FindControl("Label1") as Label).Text;
         }
 
         protected void Button1_Click(object sender, EventArgs e)
