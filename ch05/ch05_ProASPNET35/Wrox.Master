@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Wrox.master.cs" Inherits="ch05_ProASPNET35.Wrox" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Company Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <tabel cellpadding="3" border="1">
+            <tr bgcolor="silver">
+                <td colspan="2">
+                    <h1>My Company Home Page</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Copyright 2008 - My Company
+                </td>
+            </tr>
+        </tabel>
+    </form>
+</body>
+</html>
