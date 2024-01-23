@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WroxMozilla.Master.cs" Inherits="ch05_ProASPNET35.WroxMozilla" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Company Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table cellpadding="3" border="1">
+            <tr bgcolor="silver">
+                <td colspan="2">
+                    <h1><%= PageHeadingTitle %></h1>
+                    <b>User's GUID: &nbsp;&nbsp;
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        Here is some default content.
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        Here is some more default content.
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Copyright 2008 - My Company
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
