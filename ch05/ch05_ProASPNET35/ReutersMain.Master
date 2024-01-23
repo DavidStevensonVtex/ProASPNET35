@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReutersMain.master.cs" Inherits="ch05_ProASPNET35.ReutersMain" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Reuters</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <p>
+            <asp:Label ID="Label1" runat="server" Text="Label" 
+                BackColor="LightGray"
+                BorderColor="Black"
+                BorderWidth="1px"
+                BorderStyle="Solid"
+                Font-Size="XX-Large">
+                Reuters Main Master Page
+            </asp:Label>
+        </p>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
