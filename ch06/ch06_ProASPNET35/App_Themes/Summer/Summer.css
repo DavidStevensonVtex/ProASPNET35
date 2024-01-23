@@ -1,0 +1,20 @@
+﻿body {
+	font-size: x-small;
+	font-family: Verdana;
+	color: #004000;
+}
+
+a:link {
+	color: blue ;
+	text-decoration: none ;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none ;
+}
+
+a:hover {
+	color: red ;
+	text-decoration: underline overline ;
+}
