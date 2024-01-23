@@ -21,12 +21,12 @@ Default skin template. The following skins are provided as examples only.
     BorderColor="#004000" Font-Bold="True" />
 
 <asp:Textbox runat="server" ForeColor="#000000" Font-Names="Verdana"
-    Font-Size="X-Small" BorderStyle="Dotted" BorderWidth="1px"
-    BorderColor="#004000" Font-Bold="True" SkinID="TextboxDotted" />
+    Font-Size="X-Small" BorderStyle="Dotted" BorderWidth="5px"
+    BorderColor="#000000" Font-Bold="False" SkinID="TextboxDotted" />
 
 <asp:Textbox runat="server" ForeColor="#000000" Font-Names="Verdana"
-    Font-Size="X-Small" BorderStyle="Dashed" BorderWidth="1px"
-    BorderColor="#004000" Font-Bold="True" SkinID="TextboxDashed" />
+    Font-Size="X-Small" BorderStyle="Dashed" BorderWidth="3px"
+    BorderColor="#000000" Font-Bold="False" SkinID="TextboxDashed" />
 
 
 <asp:Button runat="server" ForeColor="#004000" Font-Names="Verdana"
