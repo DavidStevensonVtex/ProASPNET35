@@ -124,6 +124,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Listing_6-04.aspx" />
     <Content Include="Listing_6-01.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -153,6 +154,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="App_Themes\Summer\Summer.skin" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -213,6 +215,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Listing_6-04.aspx.cs">
+      <DependentUpon>Listing_6-04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listing_6-04.aspx.designer.cs">
+      <DependentUpon>Listing_6-04.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Listing_6-01.aspx.cs">
       <DependentUpon>Listing_6-01.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -245,6 +254,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\Fall\" />
+    <Folder Include="App_Themes\Spring\" />
+    <Folder Include="App_Themes\Winter\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
