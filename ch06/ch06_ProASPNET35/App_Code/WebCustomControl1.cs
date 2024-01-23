@@ -18,6 +18,7 @@ namespace ControlForThemes
         [Category("Appearance")]
         [DefaultValue("Enter Value")]
         [Localizable(true)]
+        [Themeable(false)]
         public string HeaderText
         {
             get
