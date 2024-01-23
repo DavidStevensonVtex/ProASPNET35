@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 namespace ControlForThemes
 {
     [DefaultProperty("HeaderText")]
-    [ToolboxData("<{0}:WebCustomControl1 runat='server'></{0}:WebCustomControl1>")];
+    [ToolboxData("<{0}:WebCustomControl1 runat='server'></{0}:WebCustomControl1>")]
     [Themeable(false)]
     public class WebCustomControl1 : WebControl
     {
@@ -24,7 +24,7 @@ namespace ControlForThemes
             get
             {
                 string s = (string)ViewState["HeaderText"];
-                return ((s == null) ? string.Empty : s);)
+                return ((s == null) ? string.Empty : s);
             }
             set
             {
@@ -32,7 +32,7 @@ namespace ControlForThemes
             }
         }
 
-        protected override void RenderControls(HtmlTextWriter output)
+        protected override void RenderContents(HtmlTextWriter output)
         {
             output.Write("<h1>" + HeaderText + "<h1>");
         }
