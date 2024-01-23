@@ -4,10 +4,10 @@
     CodeBehind="ReutersEurope.master.cs" 
     Inherits="ch05_ProASPNET35.ReutersEurope" %>
 
-<asp:ContentPlaceHolder ID="head" runat="server">
-</asp:ContentPlaceHolder>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label ID="Label1" runat="server" Text="Label" BackColor="#E0E0E0" 
         BorderColor="Black" BorderStyle="Dotted" BorderWidth="2px" Font-Size="Large">
         Reuters Europe
@@ -15,5 +15,5 @@
     <br />
     <br />
 
-    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
 </asp:Content>
